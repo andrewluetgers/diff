@@ -2,10 +2,25 @@
   "name": "diff",
   "version": "1.0.0",
   "description": "diff objects",
-  "main": "index.js",
+  "main": "./src/diff.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andrewluetgers/diff.git"
+  },
+  "keywords": [
+    "diff",
+    "object"
+  ],
   "author": "Andrew Luetgers <andrew.luetgers@gmail.com> (http://www.andrewluetgers.com/)",
-  "license": "ISC"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrewluetgers/diff/issues"
+  },
+  "homepage": "https://github.com/andrewluetgers/diff",
+  "dependencies": {
+    "lodash": "^3.10.1"
+  }
 }

@@ -2,6 +2,9 @@
 ## Object Difference
 based on [http://blog.vjeux.com/2011/javascript/object-difference.html](http://blog.vjeux.com/2011/javascript/object-difference.html)
 
+It is very minimal and not perfect.
+
+
 ```javascript
 var obj1 = {
 	foo: 1
