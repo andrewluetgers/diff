@@ -20,4 +20,13 @@ var obj2 = {
 };
 
 console.log(diff(obj1, obj2));
+
+// should log
+{
+	foo: 2,
+	bar: {
+		buzz: true
+	}
+}
+
 ```
