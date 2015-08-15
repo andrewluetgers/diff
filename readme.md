@@ -33,3 +33,6 @@ console.log(diff(obj1, obj2));
 }
 
 ```
+
+## browser useage
+the webpack build output lib/loot-diff.min.js expects lodash to be available globally as _
