@@ -7,8 +7,10 @@ module.exports = {
 		library: 'diff',
 		libraryTarget: 'var'
 	},
+	externals: {
+		lodash: "_"
+	},
 	plugins: [
-		new webpack.IgnorePlugin(/lodash/),
 		new webpack.optimize.OccurenceOrderPlugin(),
 		new webpack.optimize.DedupePlugin(),
 		new webpack.optimize.UglifyJsPlugin()
