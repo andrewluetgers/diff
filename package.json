@@ -1,6 +1,6 @@
 {
   "name": "loot-diff",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "diff objects",
   "main": "./src/diff.js",
   "scripts": {
